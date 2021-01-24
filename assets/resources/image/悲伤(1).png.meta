@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "74aac682-8a34-4227-8342-5c53889ab982",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "悲伤(1)": {
+      "ver": "1.0.4",
+      "uuid": "883500d6-fb9b-4894-9114-e0d5fa52e5fc",
+      "rawTextureUuid": "74aac682-8a34-4227-8342-5c53889ab982",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 16,
+      "trimY": 16,
+      "width": 480,
+      "height": 480,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
