@@ -31,10 +31,13 @@
       },
       {
         "__id__": 204
+      },
+      {
+        "__id__": 205
       }
     ],
     "_prefab": {
-      "__id__": 205
+      "__id__": 206
     },
     "_opacity": 255,
     "_color": {
@@ -131,7 +134,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
+      "width": 720,
       "height": 0
     },
     "_anchorPoint": {
@@ -315,8 +318,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -243.695,
-        341.861,
+        -334,
+        342,
         0,
         0,
         0,
@@ -423,8 +426,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        42.985,
-        341.861,
+        17,
+        342,
         0,
         0,
         0,
@@ -519,7 +522,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 266.78,
+      "width": 222.31,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -531,8 +534,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -251.239,
-        264.533,
+        -339,
+        265,
         0,
         0,
         0,
@@ -573,7 +576,7 @@
     "_dstBlendFactor": 771,
     "_string": "开始时间：2020.1.1",
     "_N$string": "开始时间：2020.1.1",
-    "_fontSize": 30,
+    "_fontSize": 25,
     "_lineHeight": 30,
     "_enableWrapText": true,
     "_N$file": null,
@@ -627,7 +630,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 266.78,
+      "width": 222.31,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -639,8 +642,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        42.985,
-        264.533,
+        12,
+        265,
         0,
         0,
         0,
@@ -681,7 +684,7 @@
     "_dstBlendFactor": 771,
     "_string": "结束时间：2020.1.1",
     "_N$string": "结束时间：2020.1.1",
-    "_fontSize": 30,
+    "_fontSize": 25,
     "_lineHeight": 30,
     "_enableWrapText": true,
     "_N$file": null,
@@ -848,14 +851,14 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 0.5,
       "y": 1
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -143.734,
+        0,
         92.903,
         0,
         0,
@@ -7891,6 +7894,74 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 0,
+    "transition": 0,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": null,
     "_id": ""
   },
   {

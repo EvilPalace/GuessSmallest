@@ -1,4 +1,6 @@
 import Goods from "../../Protocol/Goods";
+import NetController from "../Net/NetController";
+import GoodsItem from "./GoodsItem";
 
 const {ccclass, property} = cc._decorator;
 
@@ -9,11 +11,20 @@ export default class GoodsField extends cc.Component {
     @property(cc.ScrollView)
     private m_Scroll : cc.ScrollView = null;
 
+    @property(cc.Prefab)
+    private m_itemPrefab : cc.Prefab = null;
 
-    refresh(dataList:Goods[]){
+    start(){
+        this.refresh();
+    }
+
+    public refresh(){
+        let temp = NetController.getGoodsList();
+        this.refreshView(temp);
+    }
+
+    private refreshView(dataList:Array<Goods>){
         this.resetItems();
-        if (!(dataList instanceof Array))
-            return;
         for(let i = 0; i < dataList.length; i++)
         {
             let item = dataList[i];
@@ -25,6 +36,10 @@ export default class GoodsField extends cc.Component {
         if (goods == null)
             return;
         // 此处创建子项，并赋值
+        var item = cc.instantiate(this.m_itemPrefab);
+        item.setParent(this.m_Scroll.content);
+        var itemView = item.getComponent<GoodsItem>(GoodsItem);
+        itemView.refresh(goods);
     }
 
     resetItems(){

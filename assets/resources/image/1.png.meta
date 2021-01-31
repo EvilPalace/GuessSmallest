@@ -1,6 +1,6 @@
 {
   "ver": "2.3.5",
-  "uuid": "64e87240-7220-48ed-beff-f3f33155892b",
+  "uuid": "a4b8ffcf-6da2-431f-a60e-466ea2d075a1",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -11,10 +11,10 @@
   "height": 512,
   "platformSettings": {},
   "subMetas": {
-    "悲伤": {
+    "1": {
       "ver": "1.0.4",
-      "uuid": "7e86d856-fc2f-4663-b73f-62e45809ac72",
-      "rawTextureUuid": "64e87240-7220-48ed-beff-f3f33155892b",
+      "uuid": "92a90986-1e8d-4978-94ca-f567dafe520c",
+      "rawTextureUuid": "a4b8ffcf-6da2-431f-a60e-466ea2d075a1",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

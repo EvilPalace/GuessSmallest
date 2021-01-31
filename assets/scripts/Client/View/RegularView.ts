@@ -1,3 +1,4 @@
+import UIManager from "../Tool/UIManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -6,6 +7,7 @@ const {ccclass, property} = cc._decorator;
 export default class RegularView extends cc.Component {
     
     onClose(){
+        UIManager.hidAllView();
         cc.log("点击关闭");
     }
     
